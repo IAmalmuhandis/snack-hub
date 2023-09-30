@@ -1,0 +1,192 @@
+/* styles.css */
+
+/* Reset some default browser styles */
+body, h1, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+}
+
+.top-nav {
+    background-color: #493036; /* Dark background */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.top-nav ul {
+    list-style: none;
+}
+
+.top-nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.top-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.hero {
+    background-image: url('hero-background.jpg'); /* Add your hero background image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    background-color: #ff8c00;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    max-width: 300px; /* Adjust the size as needed */
+    height: auto;
+}
+
+.title h1 {
+    font-size: 36px;
+    margin-top: 1px;
+}
+
+.title p {
+    font-size: 18px;
+}
+
+/* Navigation styles for the hero section */
+.hero .top-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+/* main */
+/* Add these styles to your styles.css file */
+
+/* Add these styles to your styles.css file */
+
+/* Featured Snacks section */
+.featured-snacks {
+    background-color: #f5f5f5;
+    padding: 40px;
+    text-align: center;
+}
+
+.featured-snacks h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333; /* Dark text color */
+}
+
+/* Update the styles for .snack-card */
+
+.snack-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto; /* Center the div horizontally */
+    margin-bottom: 30px;
+    width: 60%; /* Adjust the width as needed */
+    padding: 20px 0;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.snack-card img {
+    max-width: 20%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 100px;
+}
+
+.snack-card h3 {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #333; /* Dark text color */
+}
+
+.snack-card p {
+    font-size: 16px;
+    color: #666; /* Slightly darker text color */
+}
+
+/* Explore Snack Vendors section */
+.vendor-list {
+    background-color: #ff8c00; /* Orange background */
+    color: #fff; /* Light text color */
+    padding: 60px 0;
+    text-align: center;
+}
+
+.vendor-list h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.vendor-list p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #493036; /* Dark button background */
+    color: #fff; /* Light text color */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #555; /* Darker background on hover */
+}
+
+/* Add these styles to your styles.css file */
+
+/* Footer styles */
+footer {
+    background-color: #493036; /* Dark background */
+    color: #fff; /* Light text color */
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-logo img {
+    max-width: 200px;
+    height: auto;
+}
+
+.footer-info p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+/* Adjust the styles as needed for your footer */
