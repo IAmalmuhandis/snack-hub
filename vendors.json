@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Vendor ",
+        "description": "Description of Vendor 1 snacks goes here.",
+        "image": "./assets/snacks1.jpg",
+        "whatsapp": "https://wa.me/1234567890"
+    },
+    {
+        "name": "Vendor 2",
+        "description": "Description of Vendor 2 snacks goes here.",
+        "image": "./assets/snacks2.jpg",
+        "whatsapp": "https://wa.me/9876543210"
+    }
+]

@@ -34,8 +34,9 @@ body {
     font-size: 18px;
 }
 
+/* Updated hero CSS to align elements horizontally */
 .hero {
-    background-image: url('hero-background.jpg'); /* Add your hero background image */
+    background-image: url('./assets/Images/snacks2.jpg'); /* Add your hero background image */
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -46,9 +47,10 @@ body {
 
 .hero-content {
     display: flex;
-    flex-direction: column;
+    flex-direction: row; /* Change flex-direction to row */
     align-items: center;
     justify-content: center;
+    gap: 20px; /* Add some spacing between elements */
 }
 
 .logo img {
@@ -64,6 +66,7 @@ body {
 .title p {
     font-size: 18px;
 }
+
 
 /* Navigation styles for the hero section */
 .hero .top-nav {
@@ -144,10 +147,12 @@ body {
     margin-bottom: 40px;
 }
 
+
+
 .btn {
     display: inline-block;
     padding: 15px 30px;
-    background-color: #493036; /* Dark button background */
+    background-color: #ff8c00; /* Dark button background */
     color: #fff; /* Light text color */
     text-decoration: none;
     font-weight: bold;
@@ -156,7 +161,7 @@ body {
 }
 
 .btn:hover {
-    background-color: #555; /* Darker background on hover */
+    background-color: #493036; /* Darker background on hover */
 }
 
 /* Add these styles to your styles.css file */
@@ -190,3 +195,149 @@ footer {
 }
 
 /* Adjust the styles as needed for your footer */
+
+
+/* Main Content (About Us) */
+.about-us {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+.about-us h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333; /* Dark text color */
+}
+
+.about-us p {
+    font-size: 16px;
+    color: #666; /* Slightly darker text color */
+}
+
+/* Contact Information section */
+.contact-info {
+    background-color: #f5f5f5;
+    padding: 40px;
+    text-align: center;
+}
+
+.contact-info h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333; /* Dark text color */
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+/* Vendor Cards section */
+.vendor-cards {
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.vendor-card {
+    width: calc(33.33% - 20px); /* Three cards in a row with some spacing */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.vendor-card:hover {
+    transform: translateY(-5px); /* Add a slight hover effect */
+}
+
+.vendor-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.popup-button {
+    background-color: #ff8c00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.popup-button:hover {
+    background-color: #555; /* Darker background on hover */
+}
+
+.whatsapp-button {
+    display: block;
+    background-color: #25d366; /* WhatsApp green */
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.whatsapp-button:hover {
+    background-color: #128c7e; /* Darker WhatsApp green on hover */
+}
+
+/* Vendor Popup Modal */
+/* CSS for the vendor popup */
+.vendor-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%; /* Set the width to 70% */
+    text-align: center;
+    position: relative;
+}
+
+
+.popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* WhatsApp Button in Popup */
+.vendor-popup .whatsapp-button {
+    background-color: #25d366; /* WhatsApp green */
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.vendor-popup .whatsapp-button:hover {
+    background-color: #128c7e; /* Darker WhatsApp green on hover */
+}
